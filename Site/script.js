@@ -14,3 +14,10 @@ function enviarEmail(){
     let emailDigitado = email.value 
     console.log(emailDigitado)
 }
+
+let emailLogin = document.getElementById("campo-email-login")
+
+function enviarEmailLogin(){
+    let emailLoginDigitado = emailLogin.value 
+    console.log(emailLoginDigitado)
+}

@@ -38,7 +38,6 @@
 
 .login{
     background: #EFEFEF;
-    justify-content: ;
     width: 20px;
 }
 
@@ -49,6 +48,7 @@
     margin-right: 2%;
 }
 .gamepad{
+    background: none;
     width: 50px;
     display: none;
 }
