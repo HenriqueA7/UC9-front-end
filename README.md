@@ -7,3 +7,4 @@ During this activity I've used:
 * CSS
 * JavaScript
 * Bootstrap
+* JQuery
