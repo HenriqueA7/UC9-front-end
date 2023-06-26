@@ -63,7 +63,7 @@
     padding: 30px 0 30px 0 ;
 }
 
-.boxLogin{
+#boxLogin{
     background: #EFEFEF;
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -100,24 +100,86 @@
     color:#EFEFEF;
     inline-size: 500px;
 }
-.boxLogin a{
-    justify-content: center;
-    background: #073954;
-    text-decoration: none;
-    width: min-content;
+.botoesLogin{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
     margin: auto;
-    margin-top: 5px;
 }
-
-.boxLoginLink{
-    flex-wrap: nowrap;
-    display: flex;
+.botaoLogin{
+    display: block;
     justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
     color: #EFEFEF;
     padding: 5px 10px;
     border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: min-content;
+}
+#botaoCadastrar{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #EFEFEF;
+    background: #DF080D;
+    padding: 5px 10px;  
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+#boxCadastro{
+    display: none;
+    background: #EFEFEF;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 600px;
+    margin: auto;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center; 
+    flex-wrap: nowrap;
+    padding: 30px 50px; 
+    border-radius: 5px;
+}
+.botoesCadastro{
+    background: #EFEFEF;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
+    margin: auto;
+}
+.boxCadastro2{
+    background: #EFEFEF;
+    text-align: center;
+}
+.boxCadastro2 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #073954;
+    background: #EFEFEF;
+}
+.boxCadastro2 h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #073954;
+    background: #EFEFEF;
+}
+.boxCadastro2 label{
+    display: flex;
+    justify-content: left;
+    margin-left: 156px;
+    background: #EFEFEF;
+    color: #073954;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.boxCadastro2 input::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#EFEFEF;
+    inline-size: 500px;
 }
 
 .setorFooter{

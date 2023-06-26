@@ -31,12 +31,12 @@
     <div class="barra"></div>
  
     <div class="setor">        
-        <div class="boxLogin">
-                <form class="boxLogin2" action="">
+        <div id="boxLogin">
+                <form class="boxLogin2">
                     <div class="boxLogin3">
                         <label for="email"> E-mail</label>
                     </div>
-                    <div>
+                    <div class="boxLogin2">
                         <input  id="campo-email-login" 
                                 type="email" 
                                 placeholder="Digite seu e-mail" 
@@ -52,13 +52,57 @@
                                 required>
                     </div>
                 </form>
-                <a  onclick="enviarEmailLogin" 
-                    href="#" 
-                    class="boxLoginLink">
-                    Entrar
-                </a>
+                <div class="botoesLogin">
+                    <button  onclick="enviarEmailLogin()" 
+                        class="botaoLogin"
+                        id="botaoLogin">
+                        Entrar
+                    </button>
+                    <button
+                        id="botaoCadastrar">
+                        Não é cadastrado? Cadastre-se
+                    </button>                
+                </div>
         </div>
     </div>
+    <section class="setor">
+        <div id="boxCadastro">
+            <form class="boxCadastro2">
+                <h1>Criar minha conta</h1>
+                <h5>informe os dados abaixo para criar sua conta</h5>
+                <div class="boxLogin3">
+                    <label for="email"> E-mail</label>
+                </div>
+                <div class="boxCadastro2">
+                    <input  id="novo-email" 
+                            type="email" 
+                            placeholder="Digite seu e-mail" 
+                            required>
+                </div>
+                <div class="boxLogin3">
+                    <label for="password"> Senha</label>
+                </div>
+                <div class="boxCadastro2">
+                    <input  id="nova-senha" 
+                            type="password" 
+                            placeholder="Senha" 
+                            required>
+                </div>
+            </form>
+            <div class="botoesCadastro">
+                <button  onclick="cadastrar()" 
+                    class="botaoLogin"
+                    id="cadastrar">
+                    Cadastrar
+                </button> 
+                <button 
+                class="botaoLogin"
+                id="botaoVoltar">
+                Voltar
+            </button>            
+            </div>
+        </div>
+    </section>
     <div class="barra"></div>
     <div class="setor">
         <div class="setorFooter">
@@ -85,7 +129,7 @@
                             required>
                     <button type="button"
                             href="#" 
-                            onclick="enviarEmail">Cadastrar</button>
+                            onclick="enviarEmail()">Cadastrar</button>
                 </form>
                 <a  href="">
                 <img src="../img/logo_instagram.png">

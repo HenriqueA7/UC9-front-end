@@ -220,6 +220,11 @@
     margin: 10px 10px;
     width: 50px;
 }
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+}
 
 @media (max-width: 980px){
     .gamepad{

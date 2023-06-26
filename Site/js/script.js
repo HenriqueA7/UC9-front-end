@@ -8,16 +8,28 @@ function mostrarMenu (){
     }
 }
 
-let email = document.getElementById("campo-email")
-
 function enviarEmail(){
-    let emailDigitado = email.value 
-    console.log(emailDigitado)
+    let email = document.getElementById("campo-email").value 
+    console.log(email)
 }
 
-let emailLogin = document.getElementById("campo-email-login")
-
 function enviarEmailLogin(){
-    let emailLoginDigitado = emailLogin.value 
-    console.log(emailLoginDigitado)
+    let emailLogin = document.getElementById("campo-email-login").value
+    let senhaLogin = document.getElementById("campo-senha").value
+    console.log(emailLogin, senhaLogin)
+}
+
+function topo(){
+    window.scrollTo(
+        {
+            top:0,
+            left:0,
+            behavior: 'smooth'
+        }
+    )
+}
+
+function cadastrar(){
+    alert("Cadastrado com sucesso!");
+    window.location.href = "../index.html";
 }
